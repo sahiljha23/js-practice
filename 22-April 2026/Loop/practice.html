@@ -11,24 +11,232 @@
 
     <script>
 
-        let num = Number(prompt('Enter the Number for checking psotive and negative'));
+        // let num = Number(prompt('Enter the Number for checking psotive and negative'));
 
-        if (isNaN(num)) {
-            document.write('Number is invalid');
+        // if (isNaN(num)) {
+        //     document.write('Number is invalid');
+        // }
+
+        // else if (num > 0) {
+        //     document.write('Number is positive');
+        // }
+
+        // else if (num < 0) {
+        //     document.write('Number is negative');
+        // }
+
+        // else {
+        //     document.write('Number is zero');
+
+        // }
+
+
+
+        // let num = Number(prompt('Enter the value in number'));
+
+
+        // if (isNaN(num)) {
+        //     document.write('The number is invalid ');
+        // }
+
+
+        // else if (num >= 18 && num < 100) {
+        //     document.write('You can vote');
+        // }
+
+        // else if (num < 18 ) {
+        //     document.write('You are not eligible for vote')
+        // }
+
+        // else {
+
+        //     document.write('Please Enter under 100')
+        // }
+
+
+        //    let year = Number(prompt("Enter the year here;"));
+
+
+
+        //    if(isNaN(year)){
+        //     document.write('Invalid year');
+        //    }
+
+        //    else if((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0){
+        //     document.write(year + ' Is loop year')
+        //    }
+
+        //    else{
+        //     document.write('Not leap year')
+        //    }
+
+
+
+        // for (let i = 1; i <= 15; i++) {
+        //     if (i % 3 === 0) {
+        //         document.write(i + '<br>');
+        //     }
+
+        // }
+
+
+        // for(let i =  1; i <= 15; i++){
+        //     if(i %2 !== 0){
+        //         document.write(i + '<br>')
+        //     }
+        // }
+
+
+        // for (let i = -2; i <= 2; i++) {
+        //     if (i > 0) {
+        //         document.write(i + ' Is Positive <br>');
+
+        //     }
+        //     else if (i < 0) {
+        //         document.write(i + ' Is negative <br>')
+        //     }
+
+        //     else {
+        //         document.write(i + ' Is zero <br>')
+        //     }
+        // }
+
+        // for (let i = 1; i <= 20; i++){
+        //     if(i % 3 === 0 && i % 1 === 0){
+        //         document.write(i)
+        //     }
+        // }
+
+
+        // let i = 1;
+
+        // while( i <= 5){
+
+        // }
+
+
+        // for(let i = 1; i <= 5; i++){
+        //     document.write(i + '<br>')
+        // }
+
+        // let i = 1;
+
+        // while(i <= 10){
+        //     document.write(i + '<br>');
+        //     i++;
+        // }
+
+
+        // for(let i = 1; i <= 20; i++){
+        //     if(i % 2 === 0){
+        //         document.write(i + '</br>')
+        //     }
+        // }
+
+
+        // let i = 1;
+
+        // while (i <= 20) {
+        //     if (i % 2 === 0) {
+        //         document.write(i + '<br>');
+
+        //     }
+        //       i++;
+        // }
+
+
+        // for(let i = 1; i<=10; i++){
+        //     document.write(5 * i + '<br>');
+        // }
+
+        // let i = 1;
+
+        // while(i <= 10){
+        //     document.write(5 * i + '<br>');
+        //     i++;
+        // }
+
+
+        //    for(let i = 10; i >=1; i--){
+        //     document.write(i + '<br>')
+        //    }
+
+
+        //  let i = 10;
+
+        //  while(i >= 1){
+        //     document.write(i + '<br>');
+        //     i--;
+
+        //  }
+
+
+        // let age = Number(prompt('Enter your age here'));
+
+
+        // let result = (age >= 18) ? "You can vote": "You can't vote";
+
+        // document.write(result);
+
+
+        // let num1 = prompt("Enter first number");
+        // let num2 = prompt('Enter secound number');
+
+        // let result = (num1 = num2) ? "Number is equal" : "Not equal";
+
+
+        // document.write(result)
+
+
+        // let num = prompt('Enter the number');
+        // let isPrime = true;
+
+        // for (let i = 2; i < num; i++) {
+        //     if (num % i === 0) {
+        //         isPrime = false;
+        //         break;
+        //     }
+        // }
+        // document.write(isPrime ? "Is Prime Number" : "Not Prime Number");
+
+
+        let num = prompt('Enter the nubmer');
+        let isPrime = 1;
+
+        for (i = 2; i < num; i++) {
+            if (num % i == 0) {
+                isPrime = 0;
+                break;
+            }
         }
 
-        else if (num > 0) {
-            document.write('Number is positive');
-        }
-
-        else if (num < 0) {
-            document.write('Number is negative');
+        if (isPrime == 1) {
+            document.write(num + ' Is Prime number');
         }
 
         else {
-            document.write('Number is zero');
-
+            document.write(num + ' Is not prime number')
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </script>
 
 </body>
